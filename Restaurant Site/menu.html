@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<!--
+    Name: Ryan Philippi
+    Date Created: 07/10/2019
+    Most recent revision: Draft v02 - following html and css sections
+-->
+<html lang="en">
+    <head>
+        <title>Menu</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <style>
+        section {
+          background-color: lightpink;
+          text-align: center;
+          padding: 25px;
+        }
+        .price {
+          font-style: italic;
+          font-weight: 400;
+        }
+        .bevs {
+          text-align: left;
+          padding: 10px;
+          margin-top: 50px;
+        }
+        .menuTitle {
+            font-weight: bold;
+        }
+
+
+        </style>
+
+    </head>
+
+    <body>
+      <div class="container">
+        <header>
+          <div class="jumbotron jumbotron-fluid"> <!-- jumbtro container-->
+            <div class="container">
+              <h1 class="display-4">Dal House Restaurant</h1>
+              <p class="lead">Welcome to the Dal House! Our Saint Paul location is now open.</p>
+            </div>
+          </div>  <!-- close jumbotron -->
+        </header>
+
+    <nav>
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html"><i class="material-icons">home</i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="menu.html">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section>
+      <article id="menu">
+
+          <div class="container">
+            <div class="row">
+              <div class="col-sm">
+              <p class="menuTitle">Burger and Fries</p>
+              <p>An American Classic!<br />Your choice - with or without cheese<br />Pickle, onion, tomato, and lettuce<br />Served with our famous thick cut french fries.</p>
+              <p class ="price">$7.95</p>
+              <p class="menuTitle">Tenderloin Sandwich and Chips</p>
+              <p>Really Hits the Spot!<br />Your choice - with or without cheese<br />Pickle, onion, tomato, and lettuce<br />
+Served with our famous thick cut french fries.<p>
+              <p class="price">$8.95</p>
+              </div>
+              <div class="col-sm">
+                <p class="menuTitle">Hot Dog and Chips</p>
+                <p>A Summer Classic!<br />You Choice - white or wheat bun<br />Relish, mustard, and ketchup<br />Served with our house-made chips.</p>
+                <p class="price">$7.95</p>
+                <p class="menuTitle">House Salad</p>
+                <p>On the Lighter Side<br />Your choice - with or without cheese<br />Iceberg lettuce, tomatoes, peppers<br />Thousand Island or Ranch<br />Dressing Served with a dinner roll.</p>
+                <p class="price">$6.95</p>
+              </div>
+              <div class="col-sm">
+                <p class="menuTitle">Italian Sausage and Peppers</p>
+                <p>An All-Time Favorite!<br />Your choice - mild or spicy Cole Slaw<br />Served with garlic mashers.</p>
+                <p class="price">$10.95</p>
+                <p class="menuTitle">Brisket Sandwich and Fries</p>
+                <p>A Taste of Texas!<br />Smoked Brisket on thick-cut<br />Texas Toast<br />Cole Slaw<br />Served with our famous thick-cut<br />french fries.</p>
+                <p class="price">$7.95</p>
+              </div>
+            </div>
+
+            <div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <table class="table table-borderless">
+        <thead class="thead-dark">
+        <tr>
+          <th colspan="2" style="text-align: center;">Beverages</th>
+        </tr>
+      </thead>
+
+        <tr>
+          <td style="text-align: left;">Root Beer</tD>
+          <td class="price">$3.00</td>
+        </tr>
+
+        <tr>
+          <td style="text-align: left;">Bottled Water</td>
+          <td class="price">$1.25</td>
+        </tr>
+
+        <tr>
+          <td style="text-align: left;">Lemonaid</td>
+          <td class="price">$1.00</td>
+        </tr>
+
+        <tr>
+          <td style="text-align: left;">Iced Tea</td>
+          <td class="price">$1.25</td>
+        </tr>
+
+      </table>
+    </div>
+      <div class="col-sm">
+      <!-- intentionally blank column -->
+      </div>
+      <div class="col-sm">
+        <!--intentionally blank column-->
+      </div>
+  </div>
+
+
+
+
+      </article>
+
+    </section>
+
+      <footer>
+        <!--carousel start-->
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="3000">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <span>We're opening a new location!</span>
+            </div>
+            <div class="carousel-item">
+              <span>We're rolling out our seasonal menu, with special options for this season.</span>
+            </div>
+            <div class="carousel-item">
+              <span>The Drink of the Month is SG Special Brew.</span>
+            </div>
+          </div>
+        </div>
+        <!--carousel end-->
+        <p class="text-left">2080 University Ave W, Saint Paul, MN 55114<br /><a href="tel:123-456-7890">(123) 456-7890</a></p>
+      </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <noscript>This site is best viewed with JavaScript enabled!</noscript>
+  </body>
+</html

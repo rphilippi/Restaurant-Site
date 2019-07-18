@@ -1,0 +1,37 @@
+/*
+Creator: Ryan Philippi
+Date created: 07/09/2019
+Date last modified: 07/09/2019
+*/
+header, footer {
+  color: dimgray;
+}
+header {
+  border-bottom: thin dimgray dashed;
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+footer {
+  border-top: thin dimgray dashed;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+nav {
+  border-bottom: thin dimgray dashed;
+  margin-bottom: 20px;
+  padding: 0px;
+}
+a:visited {
+  color: thistle;
+}
+a:hover {
+  font-weight: bold;
+  text-decoration: none;
+  color: dimgray;
+}
+a:active {
+  text-decoration: none;
+  color: lightyellow;
+}
+a:link {
+  color: slategray;
+}
